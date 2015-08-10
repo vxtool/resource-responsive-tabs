@@ -1,0 +1,7 @@
+default:
+  - 'cssmin'
+  - 'jshint'
+  - 'uglify'
+
+test:
+  - 'karma'
