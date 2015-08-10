@@ -1,0 +1,28 @@
+{
+  "name": "responsive-tabs-purejs",
+  "version": "1.0.0",
+  "author": "Hemerson Vianna <hemerson.lourenco@gmail.com>",
+  "description": "",
+  "contributors": [
+    {
+      "name": "Hemerson Vianna",
+      "email": "hemerson.lourenco@gmail.com"
+    }
+  ],
+  "main": "./js/purejs.responsiveTabs.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/descco/purejs-responsive-tabs.git"
+  },
+  "keywords": [
+    "purejs",
+    "responsive",
+    "tabs",
+    "component"
+  ],
+  "dependencies": {
+  },
+  "license": "MIT",
+  "devDependencies": {
+  }
+}
