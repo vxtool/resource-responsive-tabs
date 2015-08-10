@@ -6,7 +6,7 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
 		<meta name="viewport" content="width=device-width,initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=1">
 		<meta name="description" content="">
-		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="src/css/style.css">
 		<script type="text/javascript">
     		// to identify if javascript is active
     		var tagHtml = document.getElementsByTagName("html")[0];
@@ -14,8 +14,34 @@
 		</script>
 	</head>
 	<body>
-		
 
-		<script src="js/purejs.responsiveTabs.js"></script>
+        <div class="tabs">
+            <nav class="tabs-nav">
+                <ul class="tabs-nav-list">
+                    <li class="tabs-nav-item">
+                        <button class="tabs-nav-button" data-tab="#tab-one" type="button">Tab 1</button>
+                    </li>
+                    <li class="tabs-nav-item">
+                        <button class="tabs-nav-button" data-tab="#tab-two" type="button">Tab 2</button>
+                    </li>
+                    <li class="tabs-nav-item">
+                        <button class="tabs-nav-button" data-tab="#tab-three" type="button">Tab 3</button>
+                    </li>
+                </ul>
+            </nav>
+            <div class="tabs-content">
+                <div class="tabs-content-tab" id="tab-one">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eu scelerisque eros. Fusce ante orci, hendrerit sit amet metus sit amet, venenatis sodales felis.</p>
+                </div>
+                <div class="tabs-content-tab" id="tab-two">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eu scelerisque eros. Fusce ante orci, hendrerit sit amet metus sit amet, venenatis sodales felis.</p>
+                </div>
+                <div class="tabs-content-tab" id="tab-three">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eu scelerisque eros. Fusce ante orci, hendrerit sit amet metus sit amet, venenatis sodales felis.</p>
+                </div>
+            </div><!-- /tabs-content -->
+        </div>
+
+		<script src="src/js/purejs.responsiveTabs.js"></script>
 	</body>
 </html>

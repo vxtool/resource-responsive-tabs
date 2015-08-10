@@ -1,0 +1,22 @@
+* { margin: 0; padding: 0; }
+html { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+*, *:before, *:after { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+
+/* Tabs */
+.tabs {}
+
+/* Tabs Nav */
+.tabs-nav {}
+.tabs-nav-list { text-align: left; }
+.tabs-nav-item { display: inline-block; }
+.tabs-nav-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+/* Tabs Content */
+.tabs-content {}
+
+.js .tabs-content-tab { display: none; }
+.js .tabs-content-tab:first-child { display: block; }
