@@ -1,7 +1,7 @@
 default:
   - 'cssmin'
   - 'jshint'
-  - 'uglify'
+  - '6to5'
 
 test:
   - 'karma'
