@@ -4,6 +4,7 @@
   "description": "",
   "main": "Gruntfile.js",
   "scripts": {
+    "start": "node server.js",
     "test": ""
   },
   "repository": {
@@ -19,5 +20,20 @@
   "bugs": {
     "url": "https://github.com/resource-solutions/resource-responsive-tabs/issues"
   },
-  "homepage": "https://github.com/resource-solutions/resource-responsive-tabs#readme"
+  "homepage": "https://github.com/resource-solutions/resource-responsive-tabs#readme",
+  "devDependencies": {
+    "babel-core": "^6.14.0",
+    "babel-loader": "^6.2.5",
+    "babel-preset-es2015": "^6.14.0",
+    "babel-preset-stage-0": "^6.5.0",
+    "css-loader": "^0.24.0",
+    "jest-cli": "^15.1.1",
+    "node-sass": "^3.8.0",
+    "sass-loader": "^4.0.1",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.13.2",
+    "webpack-dev-server": "^1.15.1",
+    "webpack-validator": "^2.2.7",
+    "whacko": "^0.19.1"
+  }
 }

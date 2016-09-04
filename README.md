@@ -3,6 +3,18 @@
 [![licence mit](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](http://hemersonvianna.mit-license.org/)
 [![issues](https://img.shields.io/github/issues/resource-solutions/resource-responsive-tabs.svg?style=flat-square)](https://github.com/resource-solutions/resource-responsive-tabs/issues)
 
+## Install
+
+```bash
+npm install
+```
+
+## Usage
+
+```bash
+npm start
+```
+
 ## Contributing
 
 - Fork it!
