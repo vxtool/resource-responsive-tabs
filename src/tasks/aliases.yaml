@@ -1,7 +1,0 @@
-default:
-  - 'cssmin'
-  - 'jshint'
-  - 'browserify'
-
-test:
-  - 'karma'

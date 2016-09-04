@@ -1,58 +1,23 @@
 {
-  "name": "responsive-tabs-purejs",
+  "name": "resource-responsive-tabs",
   "version": "1.0.0",
-  "author": {
-    "name": "Hemerson Vianna",
-    "url": "http://hemersonvianna.io",
-    "email": "hemerson.lourenco@gmail.com"
-  },
   "description": "",
-  "contributors": [
-    {
-      "name": "Hemerson Vianna",
-      "email": "hemerson.lourenco@gmail.com"
-    }
-  ],
-  "main": "./js/purejs.responsiveTabs.js",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": ""
+  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/descco/purejs-responsive-tabs.git"
-  },
-  "config": {
-    "unsafe-perm": true
+    "url": "git+https://github.com/resource-solutions/resource-responsive-tabs.git"
   },
   "keywords": [
-    "purejs",
-    "responsive",
     "tabs",
-    "component"
+    "responsive"
   ],
-  "dependencies": {
-    "karma": "^0.12.31",
-    "karma-chrome-launcher": "~0.1.2",
-    "karma-firefox-launcher": "~0.1.3",
-    "karma-ie-launcher": "~0.1",
-    "karma-jasmine": "~0.1.5",
-    "karma-phantomjs-launcher": "~0.2.0",
-    "karma-sauce-launcher": "~0.1.8",
-    "karma-script-launcher": "~0.1.0",
-    "karma-story-reporter": "~0.2.2"
+  "author": "Hemerson Vianna <hemerson.lourenco@gmail.com> (http://descco.com.br)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/resource-solutions/resource-responsive-tabs/issues"
   },
-  "devDependencies": {
-    "grunt": "~0.4.5",
-    "grunt-contrib-cssmin": "^0.12.2",
-    "grunt-contrib-jshint": "~0.11.1",
-    "grunt-karma": "^0.10.1",
-    "babelify": "~6.1.3",
-    "grunt-browserify": "~4.0.0",
-    "grunt-contrib-watch": "~0.6.1",
-    "load-grunt-config": "^0.10.0",
-    "load-grunt-tasks": "^0.4.0"
-  },
-  "scripts": {
-    "test": "grunt test",
-    "preinstall": "npm install -g grunt-cli bower",
-    "postinstall": "grunt"
-  },
-  "license": "MIT"
+  "homepage": "https://github.com/resource-solutions/resource-responsive-tabs#readme"
 }
