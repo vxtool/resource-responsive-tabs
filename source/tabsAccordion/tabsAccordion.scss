@@ -2,3 +2,52 @@
 html { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
 *, *:before, *:after { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
 
+body {
+  font-family: Arial;
+  font-size: 62.5%;
+}
+
+$screen-desktop: 992px;
+
+.tabsAccordion {
+  position: relative;
+
+  > .title {
+    background: #fff;
+    border: 1px solid #ccc;
+    border-right: none;
+    color: #000;
+    clear: both;
+    cursor: pointer;
+    font-size: 2em;
+    font-weight: 700;
+    float: left;
+    margin-bottom: 0.4em;
+    padding: 0.5em;
+    text-transform: uppercase;
+    width: 100%;
+
+    @media(min-width:$screen-desktop) {
+      width: (100% / 12) * 4;
+    }
+
+    &:hover,
+    &.on {
+      background: #eee;
+      border-color: transparent;
+      color: #333;
+    }
+  }
+
+  > .content {
+    float: left;
+    width: 100%;
+
+    @media(min-width:$screen-desktop) {
+      position: absolute;
+      right: 0;
+      top: 0;
+      width: (100% / 12) * 8;
+    }
+  }
+}
